@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purchase</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $("document").ready(function(){
+            $("#buy").click(function(){
+                alert("Thank you!!!");
+                window.location.href="file:///Users/himanshuparida/Documents/html/Assignment(internship)/front%20page/index.html";
+            });
+        });
+    </script>
+    <link rel="stylesheet" type="text/css" href="purchasing.css">
+</head>
+<body>
+    <div class="upper">
+    </div>
+    <div class="up">
+        <form action="file:///Users/himanshuparida/Documents/html/Assignment(internship)/front%20page/index.html" method="post">
+            <select name="country" id="country">
+                <label for="country">Country</label>
+                <option value="country1">India</option>
+                <option value="country2">United State Of America</option>
+                <option value="country3">United Kingdoms</option>
+                <option value="country4">Australia</option>
+                <option value="country5">Nepal</option>
+            </select>
+            <select name="platfoem" id="Platform">
+                <label for="Platform">Platform
+                </label>
+                <option value="platform1">Steam</option>
+                <option value="platform2">PS4</option>
+                <option value="platform3">PS5</option>
+                <option value="platform4">Xbox One</option>
+                <option value="platform5">Xbox Series x/s</option>
+                <option value="platform6">Nintendo Switch</option>
+            </select>
+            <select name="Edition" id="edition">
+                <label for="Edition"></label>
+                <option value="edition1">Digital Edition</option>
+                <option value="edition2">Digital Deluxe Edition</option>
+            </select>
+        </form>
+        <button id="buy">Purchase</button>
+    </div>
+    <div class="image">
+        <img src="https://m.media-amazon.com/images/M/MV5BM2Y5MzUzY2QtZDY5ZS00MDUxLTlhOWMtNTk1YzgyYTkxNGUzXkEyXkFqcGdeQXVyNzEzNjU1NDg@._V1_FMjpg_UX1000_.jpg">
+    </div>
+</body>
+</html>
